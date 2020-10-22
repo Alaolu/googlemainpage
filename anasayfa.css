@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+}
+html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.üstbölge {
+    top: 5px;
+    width: 100%;
+    height: 5%;
+    display: block;
+    position: relative;
+}
+
+.sagüst {
+    position: absolute;
+    display: inline-block;
+    height: max-content;
+    right: 2%;
+    top: 10%;
+    opacity: 1;
+    margin: 0px;
+    padding: 0px;
+}
+ .sagüst a {
+     position: relative;
+     display: inline;
+     margin: 0px;
+     padding: 0px 6px;
+     color: rgba(0, 0, 0, 0.87);
+     text-decoration: none;
+     cursor: pointer;
+     font-size: 13px;
+     font-family: Arial, Helvetica, sans-serif;
+     
+ }
+ .uygulamalar { 
+    position: relative;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    top: 8px;
+    margin: 0px;
+    padding: 0px 5px;
+    right: 2px;
+    opacity: 0.6;
+
+}
+.uygulamalar:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+ .oturumac {
+     color: white;
+     border: 1px solid #4285f4;
+     font-weight: bold;
+     background-color: #4387fd;
+     padding: 7px 12px;
+     border-radius: 3px;
+ }
+ .sagüst a:hover{
+     text-decoration: underline; 
+    }
+
+
+.ortakısım {
+    display: block;
+    top: 100px;
+    position: relative;
+    height: 500px;
+    margin: 0px 20px;
+}
+.googlefoto {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    padding-top: 50px;
+    
+
+}
+.ortakısım .aramadivi {
+    display: block;
+    max-width: 600px;
+    min-width: 100px;
+    height: 50px;
+    margin: 2% auto;
+    border: 1px solid lightgray;
+    border-radius: 25px;
+}
+.ortakısım .aramadivi:hover{
+    box-shadow: 0 1px 6px rgba(32, 33, 36, .28);
+}
+.searchicon {
+   width: 3%;
+   height: 100%;
+   padding-left: 3%;
+}
+.searchinput {
+    position: relative;
+    top: -20px;
+    width: 70%;
+    height: 100%;
+    border: none;
+    font-size: 18px;
+    margin-left: 2%;
+    background: none;
+}
+.searchinput:focus {
+    outline: none;
+}
+
+.klavyeicon {
+    display: inline;
+    position: relative;
+    top: -20px;
+    left: 4%;
+    cursor: pointer;
+}
+.micicon {
+    display: inline;
+    position: relative;
+    width: 3%;
+    top: -14px;
+    left: 8%;
+    cursor: pointer;
+}
+
+.butonlar {
+    position: relative;
+    height: 20%;
+    margin-right: auto;
+    margin-left: auto;
+    width:max-content;
+}
+.button1, .button2 {
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5f6368;
+    font-size: 14px;
+    padding: 0px 14px;
+    height: 38%;
+    margin: 0px 6px;
+}
+.button1:hover{
+    background-color: #f8f8f8;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    border: 1px solid #c6c6c6;
+    color: #222;
+    cursor: pointer;
+}
+.button1:focus {
+    border: 1px solid #4d90fe;
+    outline: none;
+}
+.button2:hover{
+    background-color: #f8f8f8;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    border: 1px solid #c6c6c6;
+    color: #222;
+    cursor: pointer;
+}
+.button2:focus {
+    border: 1px solid #4d90fe;
+    outline: none;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 9%;
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+}
+.alttaraf1 {
+    display: inline;
+    height: 50%;
+    padding-left: 30px;
+    font-size: 16px;
+    text-align: left;
+    color: rgba(0, 0, 0, .54);
+    font-family: Arial,  sans-serif;
+    line-height: 40px;
+    font-weight: 100;
+}
+.alaolu {
+    display: inline-block;
+    width: 92%;
+    text-align: center;
+}
+.alttaraf2 {
+    position: relative;
+    height: 50%;
+    display: inline-block;
+    width: 50%;
+    border-top: 1px solid #e4e4e4;
+}
+.alttaraf2 a {
+    margin-top: 1px;
+    margin-right: 15px;
+    position: relative;
+    display: inline-block;
+    color: rgba(0, 0, 0, .54);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 40px;
+    
+}
+.reklam {
+    margin-left: 30px;
+}
+
+.alttaraf2 a:hover{
+    text-decoration: underline;
+}
+.alttaraf3{
+    position: absolute;
+    height: 50%;
+    width: 50%;
+    text-align: right;
+    right: 0;
+    bottom: 1px;
+    border-top: 1px solid #e4e4e4;
+}
+.alttaraf3 a{
+    position: relative;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 1px;
+    margin-left: 15px;
+    line-height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: rgba(0, 0, 0, .54);
+
+}
+.alttaraf3 a:hover{
+text-decoration: underline;
+}
+.ayarlar {
+    margin-right: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+
